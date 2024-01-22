@@ -7,13 +7,13 @@
 }
 
 .MuiDateCalendar-root {
-  height: auto;
-  max-height: none;
+  height: auto !important;
+  max-height: none !important;
 
   background-color: #fff9ff;
   border-radius: 8px;
 }
 
 .MuiPickersSlideTransition-root {
-  min-height: 400px;
+  min-height: 400px !important;
 }
