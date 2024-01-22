@@ -131,7 +131,10 @@ export function CyclePage() {
       )}
 
       <footer className={styles.footer}>
-        Made with <span>❤️</span> by <strong>Rafael Pena</strong>
+        Made with <span>❤️</span> by{" "}
+        <strong>
+          <a href="https://github.com/RafaelPena31">Rafael Pena</a>
+        </strong>
       </footer>
     </div>
   );
