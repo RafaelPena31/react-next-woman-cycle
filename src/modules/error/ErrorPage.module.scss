@@ -1,0 +1,27 @@
+#containerError {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-family: "Holtwood One SC";
+    color: #df77dc;
+  }
+
+  p {
+    color: #7b7b7b;
+    font-size: 14px;
+
+    &:first-of-type {
+      margin-top: 16px;
+      color: #161616;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+}
